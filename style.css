@@ -1,0 +1,89 @@
+@font-face {
+    font-family: MachinaLight;
+    src: url(AnyConv.com__659dbdfd5a080be8d348316f_PPNeueMachina_\ Light.ttf);
+}
+
+@font-face {
+    font-family: MachinaMedium;
+    src: url(AnyConv.com__659dbdfd5a080be8d348316e_PP\ Neue\ Machina\ Inktrap\ Medium.ttf);
+}
+
+@font-face {
+    font-family: Satoshi;
+    src: url(659dbdfd5a080be8d3483173_Satoshi-Variable.ttf);
+}
+
+:root{
+    --salmon: #EF9D71;
+    --black: black;
+    --white: white;
+    --cyan: #AEDEE0;
+    --dsalmon:#201210;
+    --dcyan: #183131;
+}
+
+*::selection{
+    background-color: var(--salmon);
+}
+
+body{
+    transition: all ease-out 0.5s;
+}
+
+body[theme="black"]{
+    background-color: var(--black);
+}
+
+body[theme="black"] .section{
+    color: var(--white);
+}
+
+body[theme="cyan"]{
+    background-color: var(--cyan);
+}
+
+body[theme="cyan"] .section{
+    color: var(--dcyan);
+}
+
+body[theme="salmon"]{
+    background-color: var(--salmon);
+}
+
+body[theme="salmon"] .section{
+    color: var(--dsalmon);
+}
+
+body[theme="white"]{
+    background-color: var(--white);
+}
+
+body[theme="white"] .section{
+    color: var(--black);
+}
+
+.videodiv{
+    clip-path: circle(var(--clip) at 50% 50%);
+}
+
+.home::-webkit-scrollbar{
+    display: none;
+}
+
+.rounded-img{
+    transform: rotate(360deg);
+    animation-name: rotate;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+
+    100%{
+            transform: rotate(360deg);
+    }
+}

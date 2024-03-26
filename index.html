@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Significo</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="overflow-x-hidden" theme="white">
+    <div class="main w-[210vw] md:w-full">
+        <div class="nav section w-full h-32 md:h-20 fixed z-[999] flex items-center justify-between px-9">
+            <div class="part1">
+                <h1 class="text-5xl md:text-3xl font-[MachinaMedium]">Significo</h1>
+            </div>
+            <div class="part2 w-0 md:w-1/3 opacity-0 md:opacity-100 font-[Satoshi] text-xs cursor-pointer font-semibold flex items-center gap-6">
+                <div class="nav-tag flex">Solutions</div>
+                <div class="nav-tag flex">About</div>
+                <div class="nav-tag flex">Insights</div>
+                <div class="nav-tag flex">Team</div>
+                <div class="nav-tag flex">Careers</div>
+                <div class="nav-tag flex px-3 py-2 bg-[#F5F19C] text-black rounded">Contact Us</div>
+            </div>
+            <div class="menu md:hidden">
+                <i class="ri-menu-2-line text-6xl"></i>
+            </div>
+        </div>
+        <div data-color="black" class="home section w-full h-[210vh] md:h-screen relative">
+            <div style="--clip: 100%" class="videodiv w-full h-full md:h-screen absolute z-[3] top-0 left-0 overflow-hidden">
+                <video autoplay loop muted class="w-full scale-[5] md:scale-[1] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+                    src="Bg-video.mp4"></video>
+            </div>
+            <div class="marqueesContainer w-full h-full md:translate-y-0 md:h-screen relative overflow-hidden">
+                <div class="heading absolute top-[10%] md:top-[9%] left-1/2 -translate-x-1/2 w-3/5 md:w-80 text-center">
+                    <h1 class="heading-text leading-[4rem] text-zinc-300 text-4xl md:text-xl font-['Satoshi'] font-semibold">Crafting a new paradigm of healthcare, one that is</h1>
+                </div>
+                <div class="videoText w-[90%] scale-[10] md:scale-[1] absolute top-2/4 md:top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                    <div class="row mb-5 lft w-full flex items-center gap-5 whitespace-nowrap -translate-x-[15%]">
+                        <div class="elem flex items-center gap-5">
+                            <h1 class="font-['MachinaMedium'] text-8xl md:text-6xl semibold">empathetic</h1>
+                            <div class="imgdiv w-[5rem] h-[5rem] md:w-[2.5rem] md:h-[2.5rem] rounded-full overflow-hidden">
+                                <img class="w-full h-full object-cover"
+                                    src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483189_Ellipse%20845-1.png"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="elem flex items-center gap-5">
+                            <h1 class="font-['MachinaMedium'] text-8xl md:text-6xl semibold">useful</h1>
+                            <div class="imgdiv w-[5rem] h-[5rem] md:w-[2.5rem] md:h-[2.5rem] overflow-hidden rounded-full">
+                                <img class="w-full h-full object-cover"
+                                    src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483184_Ellipse%20845.png"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="elem flex items-center gap-5">
+                            <h1 class="font-['MachinaMedium'] text-8xl md:text-6xl semibold">intuitive</h1>
+                            <div class="imgdiv w-[5rem] h-[5rem] md:w-[2.5rem] md:h-[2.5rem] overflow-hidden rounded-full">
+                                <img class="w-full h-full object-cover"
+                                    src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483188_Ellipse%20845-2.png"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="elem flex items-center gap-5">
+                            <h1 class="font-['MachinaMedium'] text-8xl md:text-6xl semibold">useful</h1>
+                            <div class="imgdiv w-[5rem] h-[5rem] md:w-[2.5rem] md:h-[2.5rem] overflow-hidden rounded-full">
+                                <img class="w-full h-full object-cover"
+                                    src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483185_Ellipse%20844.png"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="elem flex items-center gap-5">
+                            <h1 class="font-['MachinaMedium'] text-8xl md:text-6xl semibold">empathetic</h1>
+                        </div>
+                    </div>
+                    <div class="row mb-5 rgt w-full flex items-center gap-5 whitespace-nowrap -translate-x-[25%]">
+                        <div class="elem flex items-center gap-5">
+                            <h1 class="font-['MachinaMedium'] text-8xl md:text-6xl semibold">empathetic</h1>
+                            <div class="imgdiv w-[5rem] h-[5rem] md:w-[2.5rem] md:h-[2.5rem] overflow-hidden rounded-full">
+                                <img class="w-full h-full object-cover"
+                                    src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483183_Ellipse%20845-6.png"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="elem flex items-center gap-5">
+                            <h1 class="font-['MachinaMedium'] text-8xl md:text-6xl semibold">useful</h1>
+                            <div class="imgdiv w-[5rem] h-[5rem] md:w-[2.5rem] md:h-[2.5rem] overflow-hidden rounded-full">
+                                <img class="w-full h-full object-cover"
+                                    src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d348317a_Ellipse%20845-10.png"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="elem flex items-center gap-5">
+                            <h1 class="font-['MachinaMedium'] text-8xl md:text-6xl semibold">intuitive</h1>
+                            <div class="imgdiv w-[5rem] h-[5rem] md:w-[2.5rem] md:h-[2.5rem] overflow-hidden rounded-full">
+                                <img class="w-full h-full object-cover"
+                                    src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483184_Ellipse%20845.png"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="elem flex items-center gap-5">
+                            <h1 class="font-['MachinaMedium'] text-8xl md:text-6xl semibold">empathetic</h1>
+                            <div class="imgdiv w-[5rem] h-[5rem] md:w-[2.5rem] md:h-[2.5rem] overflow-hidden rounded-full">
+                                <img class="w-full h-full object-cover"
+                                    src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483181_Ellipse%20845-5.png"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="elem flex items-center gap-5">
+                            <h1 class="font-['MachinaMedium'] text-8xl md:text-6xl semibold">useful</h1>
+                            <div class="imgdiv w-[5rem] h-[5rem] md:w-[2.5rem] md:h-[2.5rem] overflow-hidden rounded-full">
+                                <img class="w-full h-full object-cover"
+                                    src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d348317e_Ellipse%20845-7.png"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="elem flex items-center gap-5">
+                            <h1 class="font-['MachinaMedium'] text-8xl md:text-6xl semibold">intuitive</h1>
+                        </div>
+                    </div>
+                    <div class="row mb-5 lft w-full flex items-center gap-5 whitespace-nowrap -translate-x-[8%]">
+                        <div class="elem flex items-center gap-5">
+                            <h1 class="font-['MachinaMedium'] text-8xl md:text-6xl semibold">empathetic</h1>
+                            <div class="imgdiv w-[5rem] h-[5rem] md:w-[2.5rem] md:h-[2.5rem] overflow-hidden rounded-full">
+                                <img class="w-full h-full object-cover"
+                                    src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483180_Ellipse%20845-4.png"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="elem flex items-center gap-5">
+                            <h1 class="font-['MachinaMedium'] text-8xl md:text-6xl semibold">useful</h1>
+                            <div class="imgdiv w-[5rem] h-[5rem] md:w-[2.5rem] md:h-[2.5rem] overflow-hidden rounded-full">
+                                <img class="w-full h-full object-cover"
+                                    src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483182_Ellipse%20845-8.png"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="elem flex items-center gap-5">
+                            <h1 class="font-['MachinaMedium'] text-8xl md:text-6xl semibold">intuitive</h1>
+                            <div class="imgdiv w-[5rem] h-[5rem] md:w-[2.5rem] md:h-[2.5rem] overflow-hidden rounded-full">
+                                <img class="w-full h-full object-cover"
+                                    src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483183_Ellipse%20845-6.png"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="elem flex items-center gap-5">
+                            <h1 class="font-['MachinaMedium'] text-8xl md:text-6xl semibold">useful</h1>
+                            <div class="imgdiv w-[5rem] h-[5rem] md:w-[2.5rem] md:h-[2.5rem] overflow-hidden rounded-full">
+                                <img class="w-full h-full object-cover"
+                                    src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483195_Ellipse%20845.png"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="elem flex items-center gap-5">
+                            <h1 class="font-['MachinaMedium'] text-8xl md:text-6xl semibold">empathetic</h1>
+                        </div>
+                    </div>
+                    <div class="row rgt w-full flex items-center gap-5 whitespace-nowrap -translate-x-[18%]">
+                        <div class="elem flex items-center gap-5">
+                            <h1 class="font-['MachinaMedium'] text-8xl md:text-6xl semibold">empathetic</h1>
+                            <div class="imgdiv w-[5rem] h-[5rem] md:w-[2.5rem] md:h-[2.5rem] overflow-hidden rounded-full">
+                                <img class="w-full h-full object-cover"
+                                    src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483188_Ellipse%20845-2.png"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="elem flex items-center gap-5">
+                            <h1 class="font-['MachinaMedium'] text-8xl md:text-6xl semibold">useful</h1>
+                            <div class="imgdiv w-[5rem] h-[5rem] md:w-[2.5rem] md:h-[2.5rem] overflow-hidden rounded-full">
+                                <img class="w-full h-full object-cover"
+                                    src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d348317e_Ellipse%20845-7.png"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="elem flex items-center gap-5">
+                            <h1 class="font-['MachinaMedium'] text-8xl md:text-6xl semibold">intuitive</h1>
+                            <div class="imgdiv w-[5rem] h-[5rem] md:w-[2.5rem] md:h-[2.5rem] overflow-hidden rounded-full">
+                                <img class="w-full h-full object-cover"
+                                    src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d3483185_Ellipse%20844.png"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="elem flex items-center gap-5">
+                            <h1 class="font-['MachinaMedium'] text-8xl md:text-6xl semibold">useful</h1>
+                            <div class="imgdiv w-[5rem] h-[5rem] md:w-[2.5rem] md:h-[2.5rem] overflow-hidden rounded-full">
+                                <img class="w-full h-full object-cover"
+                                    src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d348317a_Ellipse%20845-10.png"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="elem flex items-center gap-5">
+                            <h1 class="font-['MachinaMedium'] text-8xl md:text-6xl semibold">empathetic</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="btm-text absolute bottom-[10%] left-[23%] md:bottom-[7%] md:left-[3%] w-[27rem] text-center md:w-44 z-[5]">
+                <h1 class="main-text text-4xl leading-[3.5rem] z-[5] bottom-full md:text-sm font-['Satoshi']  font-medium">We build big ideas. Software. Apps. Tools. For real people. Real lives.</h1>
+            </div>
+        </div>
+        <div data-color="cyan" class="craft section h-[300vh] w-full px-9 flex flex-col md:flex-row md:gap-10 md:justify-between items-start py-10 relative mt-32 mb-[40rem]">
+            <div class="craft-text w-full md:w-2/5 md:sticky md:top-0 md:left-0">
+                <p class="text-3xl leading-10 md:text-sm md:leading-7 font-['Satoshi'] font-medium ">Significo is a leading health software creator founded on the belief that technology can transform healthcare to put people first. Whether they are employees, members, customers, or clients, we never forget the real people we’re designing for.</p>
+                <h1 class="text-7xl mt-12 leading-[6rem] md:text-5xl md:mt-6 md:leading-[4rem] w-full md:w-[25rem] font-['MachinaLight']">We Craft Human-Centric Health Software</h1>
+                <div class="flex justify-center md:justify-start">
+                    <div class="masker-parent cursor-pointer px-[12.2rem] py-10 md:px-10 md:py-1 border border-[--dcyan] w-fit mt-20 md:mt-5">
+                        <div class="masker flex items-center justify-center">
+                            <div class="btn-text flex items-center gap-4 md:gap-1"> 
+                                <div class="first flex items-center">OUR</div>
+                                <div class="second flex items-center">SOLUTION</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>                
+            </div>
+            <div class="cards w-full md:w-1/2 flex items-center flex-col px-4 md:px-10 mt-40 md:mr-24 md:mb-[15rem] md:mt-[34rem]">
+                <div class="card1 w-4/5 h-80 md:w-4/5 md:h-40 mb-7 bg-[#AEDEE0] border border-black p-8">
+                    <div class="w-full h-full flex items-center justify-between">
+                        <div style="color: black;" class="card1-text w-[25rem] md:w-[15rem] h-full flex flex-col justify-between">
+                            <h1 class="font-[Satoshi] text-4xl md:text-lg font-semibold">Driven by Purpose</h1>
+                            <h2 class="font-[Satoshi] text-2xl md:text-xs font-medium">We believe technology can dramatically improve the experience of managing health, and when crafted with empathy, intention, and expertise, impact lives at scale.</h2>
+                        </div>
+                        <div class="w-20 h-20 flex items-center justify-center">
+                            <svg class="w-full h-full overflow-hidden" fill="none">
+                                <path class="icon1" opacity="0.5" d="M45.9998 10H31.9998L19.7271 26L31.9998 56L59.9998 26L45.9998 10Z" fill="#72999A"></path>
+                                <path class="icon1" d="M18 10H46L60 26L32 56L4 26L18 10Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path class="icon1" d="M44.2726 26L31.9998 56L19.7271 26L31.9998 10L44.2726 26Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path class="icon1" d="M4 26H60" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="card2 w-4/5 h-80 md:w-4/5 md:h-40 mb-7 bg-[#AEDEE0] border border-black p-8">
+                    <div class="w-full h-full flex items-center justify-between">
+                        <div style="color: black;" class="card2-text w-[25rem] md:w-[15rem] h-full flex flex-col justify-between">
+                            <h1 class="font-[Satoshi] text-4xl md:text-lg font-semibold">Custom Products</h1>
+                            <h2 class="font-[Satoshi] text-2xl md:text-xs font-medium">We see a need and we develop a solution. Our proprietary technology is available to integrate with your systems, to license, or to customize to meet your needs.</h2>
+                        </div>
+                        <div class="w-16 h-16 flex items-center justify-center">
+                            <svg class="w-full h-full overflow-hidden" fill="none" viewBox="0 0 64 64">
+                                <path class="icon2"  opacity="0.4" d="M49.0005 54C52.8665 54 56.0005 50.866 56.0005 47C56.0005 43.134 52.8665 40 49.0005 40C45.1345 40 42.0005 43.134 42.0005 47C42.0005 50.866 45.1345 54 49.0005 54Z" fill="#72999A"></path>
+                                <path class="icon2" opacity="0.4" d="M15 24C18.866 24 22 20.866 22 17C22 13.134 18.866 10 15 10C11.134 10 8 13.134 8 17C8 20.866 11.134 24 15 24Z" fill="#72999A"></path>
+                                <path class="icon2" d="M49.0005 54C52.8665 54 56.0005 50.866 56.0005 47C56.0005 43.134 52.8665 40 49.0005 40C45.1345 40 42.0005 43.134 42.0005 47C42.0005 50.866 45.1345 54 49.0005 54Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path class="icon2" d="M49.0006 40L49.0002 29.9703C49.0001 26.7878 47.7358 23.7358 45.4855 21.4855L36 12" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path class="icon2" d="M36 22V12H46" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path class="icon2" d="M15 24C18.866 24 22 20.866 22 17C22 13.134 18.866 10 15 10C11.134 10 8 13.134 8 17C8 20.866 11.134 24 15 24Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path class="icon2" d="M15 24L15.0004 34.0297C15.0005 37.2122 16.2648 40.2642 18.5151 42.5145L28.0006 52" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path class="icon2" d="M28.0003 42V52H18.0003" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="card3 w-4/5 h-80 md:w-4/5 md:h-40 mb-7 bg-[#AEDEE0] border border-black p-8">
+                    <div class="w-full h-full flex items-center justify-between">
+                        <div style="color: black;" class="card3-text w-[25rem] md:w-[15rem] h-full flex flex-col justify-between">
+                            <h1 class="font-[Satoshi] text-4xl md:text-lg font-semibold">Partnerships</h1>
+                            <h2 class="font-[Satoshi] text-2xl md:text-xs font-medium">We partner with like-minded benefits providers, insurance, and health companies to create custom solutions and technology.</h2>
+                        </div>
+                        <div class="w-16 h-16 flex items-center justify-center">
+                            <svg class="w-full h-full overflow-hidden" fill="none" viewBox="0 0 64 64">
+                                <path class="icon3" opacity="0.4" d="M50 38.2155L40.8007 47.4147C40.5565 47.659 40.2532 47.8358 39.9204 47.928C39.5875 48.0201 39.2365 48.0246 38.9014 47.9408L24.4122 44.3185C24.1404 44.2506 23.886 44.1263 23.6653 43.9537L10 33.268L18.1436 17.9475L30.9736 14.2071C31.4319 14.0735 31.9229 14.1082 32.3578 14.3051L41 18.2155H35.8284C35.5658 18.2155 35.3057 18.2672 35.0631 18.3677C34.8204 18.4682 34.5999 18.6155 34.4142 18.8012L24.6306 28.5848C24.428 28.7875 24.2713 29.0313 24.1711 29.2997C24.0709 29.5682 24.0295 29.855 24.0498 30.1408C24.0702 30.4267 24.1517 30.7048 24.2888 30.9564C24.426 31.208 24.6156 31.4271 24.8448 31.5991L26.2 32.6155C27.5848 33.654 29.269 34.2155 31 34.2155C32.731 34.2155 34.4152 33.654 35.8 32.6155L39 30.2155L50 38.2155Z" fill="#72999A"></path>
+                                <path class="icon3" d="M60.1794 30.4462L54 33.5359L46 18.2154L52.2423 15.0942C52.7113 14.8597 53.2536 14.8188 53.7525 14.9802C54.2514 15.1416 54.6669 15.4925 54.9096 15.9573L61.0578 27.7316C61.1808 27.967 61.2556 28.2246 61.2779 28.4892C61.3002 28.7539 61.2696 29.0204 61.1878 29.2731C61.1061 29.5258 60.9748 29.7596 60.8016 29.9611C60.6285 30.1625 60.417 30.3274 60.1794 30.4462V30.4462Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path class="icon3" d="M10.0011 33.2681L3.8217 30.1784C3.58414 30.0596 3.37261 29.8947 3.19947 29.6932C3.02633 29.4918 2.89504 29.258 2.81327 29.0052C2.7315 28.7525 2.70088 28.4861 2.7232 28.2214C2.74552 27.9568 2.82033 27.6992 2.94327 27.4638L9.09151 15.6895C9.33421 15.2247 9.74973 14.8738 10.2486 14.7124C10.7475 14.551 11.2898 14.5919 11.7588 14.8264L18.0011 17.9475L10.0011 33.2681Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path class="icon3" d="M54 33.5359L50 38.2154L40.8007 47.4147C40.5565 47.6589 40.2532 47.8357 39.9204 47.9279C39.5875 48.0201 39.2365 48.0245 38.9014 47.9407L24.4122 44.3184C24.1404 44.2505 23.886 44.1262 23.6653 43.9537L10 33.2679" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path class="icon3" d="M50 38.2155L39 30.2155L35.8 32.6155C34.4152 33.654 32.7309 34.2155 31 34.2155C29.269 34.2155 27.5848 33.654 26.2 32.6155L24.8448 31.5991C24.6156 31.4271 24.4259 31.208 24.2888 30.9564C24.1516 30.7048 24.0701 30.4267 24.0498 30.1408C24.0295 29.855 24.0709 29.5682 24.1711 29.2997C24.2713 29.0313 24.428 28.7875 24.6306 28.5849L34.4142 18.8012C34.5999 18.6155 34.8204 18.4682 35.063 18.3677C35.3057 18.2672 35.5658 18.2155 35.8284 18.2155H46" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path class="icon3" d="M18.1433 17.9475L30.9733 14.2071C31.4316 14.0735 31.9226 14.1082 32.3576 14.3051L40.9997 18.2155" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path class="icon3" d="M28 53.2154L20.4651 51.3317C20.1594 51.2552 19.876 51.1076 19.6381 50.9008L14 46" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="card4 w-4/5 h-80 md:w-4/5 md:h-40 mb-7 bg-[#AEDEE0] border border-black p-8">
+                    <div class="w-full h-full flex items-center justify-between">
+                        <div style="color: black;" class="card4-text w-[25rem] md:w-[15rem] h-full flex flex-col justify-between">
+                            <h1 class="font-[Satoshi] text-4xl md:text-lg font-semibold">Security & Compliance</h1>
+                            <h2 class="font-[Satoshi] text-2xl md:text-xs font-medium">Not just technology experts. Health experts. We are able to navigate both stringent regulatory environments and the complexities of technology and data.</h2>
+                        </div>
+                        <div class="w-16 h-16 flex items-center justify-center">
+                            <svg class="w-full h-full overflow-hidden" fill="none" viewBox="0 0 64 64">
+                                <path class="icon4" opacity="0.4" d="M10 26.6667V12C10 11.4696 10.2107 10.9609 10.5858 10.5858C10.9609 10.2107 11.4696 10 12 10H52C52.5304 10 53.0391 10.2107 53.4142 10.5858C53.7893 10.9609 54 11.4696 54 12V26.6667C54 47.6705 36.1735 54.6292 32.6141 55.8093C32.2161 55.9463 31.7839 55.9463 31.386 55.8093C27.8265 54.6292 10 47.6705 10 26.6667Z" fill="#72999A"></path>
+                                <path class="icon4" d="M10 26.6667V12C10 11.4696 10.2107 10.9609 10.5858 10.5858C10.9609 10.2107 11.4696 10 12 10H52C52.5304 10 53.0391 10.2107 53.4142 10.5858C53.7893 10.9609 54 11.4696 54 12V26.6667C54 47.6705 36.1735 54.6292 32.6141 55.8093C32.2161 55.9463 31.7839 55.9463 31.386 55.8093C27.8265 54.6292 10 47.6705 10 26.6667Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path class="icon4" d="M43 24L28.3333 38L21 31" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div data-color="salmon" class="real section w-full overflow-hidden">
+            <div class="cont w-full h-[230vh] relative">
+                <div class="slides w-full h-[70vh] md:h-[100vh] flex gap-10 sticky top-0 left-0">
+                    <div class="slide w-full mt-52 md:mt-0 h-screen flex items-center justify-center flex-shrink-0">
+                        <div class="text font-[MachinaLight]">
+                            <h1 class="text-8xl md:text-7xl">Real Talk,</h1>
+                            <h1 class="text-8xl md:text-7xl">Real impact</h1>
+                        </div>
+                        <div
+                            class="w-[23rem] h-[23rem] md:w-[14rem] md:h-[14rem] overflow-hidden absolute md:top-1/2 translate-y-full md:-translate-y-1/2 right-0 translate-x-1/2 rounded-full">
+                            <img class="w-full h-full object-cover"
+                                src="https://images.unsplash.com/photo-1521119989659-a83eee488004?q=80&w=1923&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                alt="">
+                        </div>
+                    </div>
+                    <div class="slide w-full mt-52 mr-32 md:mr-0 md:mt-0 h-screen flex items-center justify-center flex-shrink-0 relative">
+                        <div class="img1 w-[18rem] h-[18rem] md:w-[11.5rem] md:h-[11.5rem] rounded-full overflow-hidden absolute -top-[20rem] md:-top-[4.2rem] -right-[22rem] md:left-1/2 -translate-x-1/2">
+                            <img class="w-full h-full object-cover" src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/65e9edd08cc0ac13ed6995bd_4.jpg" alt="">
+                        </div>
+                        <div class="img2 w-[13rem] h-[13rem] md:w-[7.2rem] md:h-[7.2rem] rounded-full z-[3] overflow-hidden absolute -bottom-2/3 translate-y-8 md:top-2/3 left-[19rem] md:-translate-y-8">
+                            <img class="w-full h-full object-cover" src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/65e9edafe67e88c12db2d78b_2.jpg" alt="">
+                        </div>
+                        <div class="img3 w-[17rem] h-[17rem] md:w-[15.8rem] md:h-[15.8rem] rounded-full overflow-hidden absolute -bottom-[8rem] left-1/2 translate-x-20 md:-translate-x-1/2">
+                            <img class="w-full h-full object-cover" src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/65e9ee19cb5203ee12c21ba3_3.jpg" alt="">
+                        </div>
+                        <div class="w-[80%] md:w-[60%] text-center relative">
+                            <h3 class="absolute top-0 left-0 w-[30rem] md:w-60 text-left font-['Satoshi'] font-medium text-4xl md:text-[1rem] leading-[3.5rem] md:leading-6 -translate-x-[7.4rem] -translate-y-52 md:-translate-x-4 md:-translate-y-8"> We're on a mission to impact as many lives as possible and build a better company while we do it. Here's our progress.</h3>
+                            <h1 class="text-[7.5rem] md:text-[6.9rem] text-white leading-none font-['MachinaMedium']">20.4M</h1>
+                            <h3 class="text-[3rem] md:text-[2.1rem] w-full md:w-10/12 leading-[3.5rem] md:leading-10 tracking-tight font-['MachinaMedium']">Real people — real lives — we have built products and solutions for.</h3>
+                        </div>
+                        <div class="w-[19rem] h-[19rem] md:w-[14rem] md:h-[14rem] overflow-hidden absolute top-0 -translate-y-fulll md:top-1/2 md:-translate-y-1/2 -right-[39rem] md:right-0 translate-x-full md:translate-x-1/2 rounded-full">
+                            <img class="w-full h-full object-cover" src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/65e9ee2e5e80fe8ace7a1ff3_5.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="slide mt-52 w-10/12 md:mt-0 h-screen flex-shrink-0 flex items-center justify-center relative">
+                        <img class="img4 absolute w-56 -bottom-40 md:-top-10" src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/65ea1b924ee31caf14d64b2a_TreeStructure.png" alt="">
+                        <img class="img5 absolute -bottom-[39rem] left-24 md:-bottom-16 md:left-72 w-96 md:w-80" src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/65ea1b841fcd9f50115dbe9c_RocketLaunch.png" alt="">
+                        <div class="text-div w-full md:w-[60%] text-center relative">
+                            <h3 class="absolute -top-full md:top-0 left-0 w-[30rem] md:w-[14rem] text-left font-['Satoshi'] font-medium text-4xl md:text-[1rem] leading-[3.5rem] md:leading-6 -translate-x-24 -translate-y-24 md:-translate-x-7 md:-translate-y-12"> Our team is global and diverse, because our individual experiences make us stronger.</h3>
+                            <h1 class="text-[7.5rem] md:text-[6.9rem] text-white leading-none font-['MachinaMedium']">49%</h1>
+                            <h3 class="text-[3rem] md:text-[2.1rem] w-[40rem] leading-10 tracking-tight font-['MachinaMedium']">Expert Women in Tech.</h3>
+                        </div>
+                        <img class="w-64 opacity-0 md:opacity-100 lastslideImg absolute top-56 -right-24" src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/65ea1ba6eb9637155282b42f_Lightning.png" alt="">
+                    </div>
+                    <div class="slide mt-52 w-11/12 md:ml-0 md:mt-0 h-screen flex-shrink-0 flex items-center justify-center relative">
+                        <div
+                            class="w-[10.3rem] h-[10.3rem] opacity-0 md:opacity-100 rounded-full overflow-hidden absolute -top-8 left-1/4 -translate-x-1/2">
+                            <img class="w-full h-full object-cover" src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/65e9ef82bb0daca6843ce305_7.jpg" alt="">
+                        </div>
+                        <div
+                            class="lastslideImg w-[19rem] h-[19rem] rounded-full overflow-hidden absolute -bottom-[10.5rem] left-1/3 -translate-x-3/4">
+                            <img class="w-full h-full object-cover" src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/65e9ef723a7cfee7941b52f3_6.jpg" alt="">
+                        </div>
+                        <div class="w-full md:w-[55%] text-center relative">
+                            <h1 class="text-[7.5rem] md:text-[6.9rem] -translate-x-56 -translate-x-0 text-white leading-[3.5rem] leading-none font-['MachinaMedium']">13</h1>
+                            <h3 class="text-[3rem] w-full -translate-x-[13rem] md:-translate-x-0 md:text-[2.1rem] leading-[3.5rem] md:leading-10 tracking-tight font-['MachinaMedium']">Nationalities Represented on Our Team.</h3>
+                        </div>
+                        <div
+                            class="w-[3.8rem] h-[3.8rem] opacity-0 md:opacity-100 lastslideImg rounded-full overflow-hidden absolute bottom-1/4 right-36 -translate-x-1/2">
+                            <img class="w-full h-full object-cover" src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/65e9ef9463d57ead8406a444_8.jpg" alt="">
+                        </div>
+                        <div
+                            class="w-[17rem] h-[17rem] rounded-full overflow-hidden absolute -top-[15rem] -right-20 md:-top-[5rem] md:-right-1/4 -translate-x-2/3">
+                            <img class="w-full h-full object-cover" src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/65e9efa87b272d53118849fa_9.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div data-color="white" class="team section py-20 mt-40 md:mt-0">
+            <h1 class="text-center text-5xl font-medium font-['MachinaLight']">Our Team</h1>
+            <div class="list mt-10 w-full px-10 mt-20 ">
+                <div class="listelem pointer-events-none md:pointer-events-auto w-full py-20 md:py-8 md:px-8 border-b-2 border-black relative">
+                    <div class="relative flex flex-col md:flex-row z-[3] md:items-center justify-between">
+                        <div class="left text-[#2544EE] md:text-black flex items-center gap-10 text-[2.5rem] md:text-3xl font-['MachinaLight']">
+                            <h3 class="md:opacity-10">01</h3>
+                            <h1>Dr. Rick McCartney</h1>
+                        </div>
+                        <h3 class="text-4xl md:text-lg font-['Satoshi'] ml-[5.5rem] md:ml-0">CEO</h3>
+                    </div>
+                    <div class="picture opacity-0 absolute top-1/1 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[14rem] h-[14rem] overflow-hidden z-[4] rounded-full ">
+                        <img class="w-full h-full object-cover" src="https://assets-global.website-files.com/659dbdfd5a080be8d3483190/659dbdfd5a080be8d3483259_Rick%20McCartney%20.png" alt="">
+                    </div>
+                    <div class="md:hidden absolute top-1/2 left-[37.5rem] -translate-x-1/2 -translate-y-1/2 w-[14rem] h-[14rem] overflow-hidden z-[4] rounded-full ">
+                        <img class="w-full h-full object-cover" src="https://assets-global.website-files.com/659dbdfd5a080be8d3483190/659dbdfd5a080be8d3483259_Rick%20McCartney%20.png" alt="">
+                    </div>
+                    <div class="bluelayer bg-blue-700 absolute z-[2] w-full h-0 bottom-0 left-0"></div>
+                </div>
+                <div class="listelem w-full py-20 md:py-8 md:px-8 border-b-2 border-black relative">
+                    <div class="relative flex z-[3] flex-col md:flex-row md:items-center justify-between">
+                        <div class="left text-[#2544EE] md:text-black flex items-center gap-10 text-[2.5rem] md:text-3xl font-['MachinaLight']">
+                            <h3 class="md:opacity-10">02</h3>
+                            <h1>Chris Koha</h1>
+                        </div>
+                        <h3 class="text-4xl md:text-lg font-['Satoshi'] ml-[6rem] md:ml-0">Coo</h3>
+                    </div>
+                    <div class="picture opacity-0 absolute top-1/1 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[14rem] h-[14rem] overflow-hidden z-[4] rounded-full ">
+                        <img class="w-full h-full object-cover" src="https://assets-global.website-files.com/659dbdfd5a080be8d3483190/659dbdfd5a080be8d34832ae_655d505c9d551c9c11dd3613_Chris20Koha.png" alt="">
+                    </div>
+                    <div class="md:hidden absolute top-1/2 left-[37.5rem] -translate-x-1/2 -translate-y-1/2 w-[14rem] h-[14rem] overflow-hidden z-[4] rounded-full ">
+                        <img class="w-full h-full object-cover" src="https://assets-global.website-files.com/659dbdfd5a080be8d3483190/659dbdfd5a080be8d34832ae_655d505c9d551c9c11dd3613_Chris20Koha.png" alt="">
+                    </div>
+                    <div class="bluelayer absolute z-[2] w-full h-full bottom-0 left-0"></div>
+                </div>
+                <div class="listelem w-full py-20 md:py-8 md:px-8 border-b-2 border-black relative">
+                    <div class="relative flex flex-col md:flex-row z-[3] md:items-center justify-between ">
+                        <div class="left text-[#2544EE] md:text-black flex items-center gap-10 text-[2.5rem] md:text-3xl font-['MachinaLight']">
+                            <h3 class="md:opacity-10">03</h3>
+                            <h1>Caroline Nieto</h1>
+                        </div>
+                        <h3 class="text-4xl md:text-lg font-['Satoshi'] ml-[6rem] md:ml-0">Chief Product Officer</h3>
+                    </div>
+                    <div class="picture opacity-0 absolute top-1/1 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[14rem] h-[14rem] overflow-hidden z-[4] rounded-full ">
+                        <img class="w-full h-full object-cover" src="https://assets-global.website-files.com/659dbdfd5a080be8d3483190/65cd134a7ece047ea2260d5b_Caroline%20Nieto.png" alt="">
+                    </div>
+                    <div class="md:hidden absolute top-1/2 left-[37.5rem] -translate-x-1/2 -translate-y-1/2 w-[14rem] h-[14rem] overflow-hidden z-[4] rounded-full ">
+                        <img class="w-full h-full object-cover" src="https://assets-global.website-files.com/659dbdfd5a080be8d3483190/65cd134a7ece047ea2260d5b_Caroline%20Nieto.png" alt="">
+                    </div>
+                    <div class="bluelayer absolute z-[2] w-full h-full bottom-0 left-0"></div>
+                </div>
+                <div class="listelem w-full py-20 md:py-8 md:px-8 border-b-2 border-black relative">
+                    <div class="relative flex z-[3] flex-col md:flex-row md:items-center justify-between ">
+                        <div class="left text-[#2544EE] md:text-black flex items-center gap-10 text-[2.5rem] md:text-3xl font-['MachinaLight']">
+                            <h3 class="md:opacity-10">04</h3>
+                            <h1>Víctor Albertos</h1>
+                        </div>
+                        <h3 class="text-4xl md:text-lg font-['Satoshi'] ml-[6rem] md:ml-0">CTO</h3>
+                    </div>
+                    <div class="picture opacity-0 absolute top-1/1 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[14rem] h-[14rem] overflow-hidden z-[4] rounded-full ">
+                        <img class="w-full h-full object-cover" src="https://assets-global.website-files.com/659dbdfd5a080be8d3483190/659dbdfd5a080be8d34832e6_655d504bfd0e67e20640dbbd_ViCC81ctor20Albertos.png" alt="">
+                    </div>
+                    <div class="md:hidden absolute top-1/2 left-[37.5rem] -translate-x-1/2 -translate-y-1/2 w-[14rem] h-[14rem] overflow-hidden z-[4] rounded-full ">
+                        <img class="w-full h-full object-cover" src="https://assets-global.website-files.com/659dbdfd5a080be8d3483190/659dbdfd5a080be8d34832e6_655d504bfd0e67e20640dbbd_ViCC81ctor20Albertos.png" alt="">
+                    </div>
+                    <div class="bluelayer absolute z-[2] w-full h-full bottom-0 left-0"></div>
+                </div>
+                <div class="listelem w-full py-14 md:py-8 md:px-8 border-b-2 border-black relative">
+                    <div class="relative flex z-[3] flex-col md:flex-row md:items-center justify-between">
+                        <div class="left text-[#2544EE] md:text-black flex items-center gap-10 text-[2.5rem] md:text-3xl font-['MachinaLight']">
+                            <h3 class="md:opacity-10">05</h3>
+                            <h1 class="w-52 md:w-full">Dr. Jana Hapfelmeier</h1>
+                        </div>
+                        <h3 class="text-4xl md:text-lg font-['Satoshi'] ml-[6rem] md:ml-0">Chief Innovation Officer</h3>
+                    </div>
+                    <div class="picture opacity-0 absolute top-1/1 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[14rem] h-[14rem] overflow-hidden z-[4] rounded-full ">
+                        <img class="w-full h-full object-cover" src="https://assets-global.website-files.com/659dbdfd5a080be8d3483190/659dbdfd5a080be8d348325a_655d4fbc461dbfc3c7e1914e_Dr.20Jana20Hapfelmeier.png" alt="">
+                    </div>
+                    <div class="md:hidden absolute top-1/2 left-[37.5rem] -translate-x-1/2 -translate-y-1/2 w-[14rem] h-[14rem] overflow-hidden z-[4] rounded-full ">
+                        <img class="w-full h-full object-cover" src="https://assets-global.website-files.com/659dbdfd5a080be8d3483190/659dbdfd5a080be8d348325a_655d4fbc461dbfc3c7e1914e_Dr.20Jana20Hapfelmeier.png" alt="">
+                    </div>
+                    <div class="bluelayer absolute z-[2] w-full h-full bottom-0 left-0"></div>
+                </div>
+                <div class="listelem w-full py-20 md:py-8 md:px-8 border-b-2 border-black relative">
+                    <div class="relative flex z-[3] flex-col md:flex-row md:items-center justify-between">
+                        <div class="left text-[#2544EE] md:text-black flex items-center gap-10 text-[2.5rem] md:text-3xl font-['MachinaLight']">
+                            <h3 class="md:opacity-10">06</h3>
+                            <h1>Michael Robin</h1>
+                        </div>
+                        <h3 class="text-4xl md:text-lg font-['Satoshi'] ml-[6rem] md:ml-0">VP of Marketing</h3>
+                    </div>
+                    <div class="picture opacity-0 absolute top-1/1 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[14rem] h-[14rem] overflow-hidden z-[4] rounded-full ">
+                        <img class="w-full h-full object-cover" src="https://assets-global.website-files.com/659dbdfd5a080be8d3483190/659dbdfd5a080be8d34832da_655d501d4436fe51b356605d_Michael20Robin.png" alt="">
+                    </div>
+                    <div class="md:hidden absolute top-1/2 left-[37.5rem] -translate-x-1/2 -translate-y-1/2 w-[14rem] h-[14rem] overflow-hidden z-[4] rounded-full ">
+                        <img class="w-full h-full object-cover" src="https://assets-global.website-files.com/659dbdfd5a080be8d3483190/659dbdfd5a080be8d34832da_655d501d4436fe51b356605d_Michael20Robin.png" alt="">
+                    </div>
+                    <div class="bluelayer absolute z-[2] w-full h-full bottom-0 left-0"></div>
+                </div>
+                <div class="listelem w-full py-20 md:py-8 md:px-8 border-b-2 border-black relative">
+                    <div class="relative flex flex-col md:flex-row z-[3] md:items-center justify-between">
+                        <div class="left text-[#2544EE] md:text-black flex items-center gap-10 text-[2.5rem] md:text-3xl font-['MachinaLight']">
+                            <h3 class="md:opacity-10">07</h3>
+                            <h1>Adrian Rubio</h1>
+                        </div>
+                        <h3 class="text-4xl md:text-lg font-['Satoshi'] ml-[5.5rem] md:ml-0">VP OF Engineering</h3>
+                    </div>
+                    <div class="picture opacity-0 absolute top-1/1 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[14rem] h-[14rem] overflow-hidden z-[4] rounded-full ">
+                        <img class="w-full h-full object-cover" src="https://assets-global.website-files.com/659dbdfd5a080be8d3483190/659dbdfd5a080be8d348325c_655d50b27e70d440e4404528_AdriaCC81n20Rubio.png" alt="">
+                    </div>
+                    <div class="md:hidden absolute top-1/2 left-[37.5rem] -translate-x-1/2 -translate-y-1/2 w-[14rem] h-[14rem] overflow-hidden z-[4] rounded-full ">
+                        <img class="w-full h-full object-cover" src="https://assets-global.website-files.com/659dbdfd5a080be8d3483190/659dbdfd5a080be8d348325c_655d50b27e70d440e4404528_AdriaCC81n20Rubio.png" alt="">
+                    </div>
+                    <div class="bluelayer absolute z-[2] w-full h-full bottom-0 left-0"></div>
+                </div>
+                <div class="listelem w-full py-20 md:py-8 md:px-8 border-b-2 border-black relative">
+                    <div class="relative flex flex-col md:flex-row z-[3] md:items-center justify-between ">
+                        <div class="left text-[#2544EE] md:text-black flex items-center gap-10 text-[2.5rem] md:text-3xl font-['MachinaLight']">
+                            <h3 class="md:opacity-10">08</h3>
+                            <h1>Cy Serrano</h1>
+                        </div>
+                        <h3 class="text-4xl md:text-lg font-['Satoshi'] ml-[6rem] md:ml-0">VP of Product</h3>
+                    </div>
+                    <div class="picture opacity-0 absolute top-1/1 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[14rem] h-[14rem] overflow-hidden z-[4] rounded-full ">
+                        <img class="w-full h-full object-cover" src="https://assets-global.website-files.com/659dbdfd5a080be8d3483190/659dbdfd5a080be8d34832c7_655d4fcd461dbfc3c7e19739_Cy20Serrano.png" alt="">
+                    </div>
+                    <div class="md:hidden absolute top-1/2 left-[37.5rem] -translate-x-1/2 -translate-y-1/2 w-[14rem] h-[14rem] overflow-hidden z-[4] rounded-full ">
+                        <img class="w-full h-full object-cover" src="https://assets-global.website-files.com/659dbdfd5a080be8d3483190/659dbdfd5a080be8d34832c7_655d4fcd461dbfc3c7e19739_Cy20Serrano.png" alt="">
+                    </div>
+                    <div class="bluelayer absolute z-[2] w-full h-full bottom-0 left-0"></div>
+                </div>
+                <div class="listelem w-full py-20 md:py-8 md:px-8 relative">
+                    <div class="relative flex flex-col md:flex-row z-[3] md:items-center justify-between">
+                        <div class="left text-[#2544EE] md:text-black flex items-center gap-10 text-[2.5rem] md:text-3xl font-['MachinaLight']">
+                            <h3 class="md:opacity-10">09</h3>
+                            <h1>Lenya McGrath</h1>
+                        </div>
+                        <h3 class="text-4xl md:text-lg font-['Satoshi'] ml-[6rem] md:ml-0">VP of Partnerships</h3>
+                    </div>
+                    <div class="picture opacity-0 absolute top-1/1 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[14rem] h-[14rem] overflow-hidden z-[4] rounded-full ">
+                        <img class="w-full h-full object-cover" src="https://assets-global.website-files.com/659dbdfd5a080be8d3483190/65e0bbf51f50ea7c26f413f5_Lenya%20McGrath.png" alt="">
+                    </div>
+                    <div class="md:hidden absolute top-1/2 left-[37.5rem] -translate-x-1/2 -translate-y-1/2 w-[14rem] h-[14rem] overflow-hidden z-[4] rounded-full ">
+                        <img class="w-full h-full object-cover" src="https://assets-global.website-files.com/659dbdfd5a080be8d3483190/65e0bbf51f50ea7c26f413f5_Lenya%20McGrath.png" alt="">
+                    </div>
+                    <div class="bluelayer absolute z-[2] w-full h-full bottom-0 left-0"></div>
+                </div>
+            </div>
+        </div>
+        <div data-color="black" class="all-text section w-full mt-60 flex flex-col px-14 md:px-24">
+            <div class="text-1 w-full md:w-96 flex flex-col items-center justify-center gap-16 md:gap-8">
+                <div>
+                    <h1 class="sub-text1 font-['Satoshi'] text-[2.3rem] md:text-xl font-medium text-center text-zinc-300">Working with the Significo team has been such a pleasure! We took on a significant project to rebuild our entire platform and the team approached the project with our best interests in mind. They continue to prioritize the end user experience and offer amazing expertise in all of the areas we lack internally. I would personally be lost without this team, their ability to problem solve, their openness to feedback and desire to build the product like it is their own.</h1>
+                </div>
+                <div class="para-img flex flex-col items-center justify-center gap-2 md:gap-1">
+                    <div class="w-32 h-32 md:w-16 md:h-16 rounded-full overflow-hidden mb-8 md:mb-3">
+                        <img class="w-full h-full object-cover" src="https://assets-global.website-files.com/659dbdfd5a080be8d3483190/659dbdfd5a080be8d34832e5_MirandaErnst.jpeg" alt="">
+                    </div>
+                    <h1 class="font-['Satoshi'] text-[2.3rem] md:text-lg font-semibold">Miranda Ernst</h1>
+                    <h2 class="font-['Satoshi'] font-medium text-[2rem] md:text-sm text-zinc-500">Product Manager @ HealthCheck360</h2>
+                </div>
+            </div>
+            <div class="text-2 w-full mt-36 md:mt-0 md:w-5/12 self-end flex flex-col items-center justify-center gap-16 md:gap-8">
+                <div>
+                    <h1 class="sub-text2 font-['Satoshi'] text-[2.3rem] md:text-xl font-medium text-center text-zinc-300">Working with Significo and their recommendation service has been a game-changer for our occupational prevention efforts. Our customers are extremely satisfied with the tool's impressive technical capabilities and data-driven approach. But what truly sets it apart is the intuitive and modern user experience it offers, making it a breeze for our clients to navigate. By leveraging this service, our customers have successfully tackled presenteeism and absenteeism, making a significant impact on their workforce's well-being. We highly recommend Significo to any organization looking to optimize their occupational health and drive positive change.</h1>
+                </div>
+                <div class="para-img flex flex-col items-center justify-center gap-2 md:gap-1">
+                    <div class="w-32 h-32 md:w-16 md:h-16 rounded-full overflow-hidden mb-8 md:mb-3">
+                        <img class="w-full h-full object-cover" src="https://assets-global.website-files.com/659dbdfd5a080be8d3483190/659dbdfd5a080be8d3483253_EmekAltun.jpg" alt="">
+                    </div>
+                    <h1 class="font-['Satoshi'] text-[2.3rem] md:text-lg font-semibold">Emek Altun</h1>
+                    <h2 class="font-['Satoshi'] font-medium text-[2rem] md:text-sm text-zinc-500">CEO @ Vitaservices</h2>
+                </div>
+            </div>
+        </div>
+        <div data-color="white" class="capsules section w-full min-h-full md:h-screen mt-60 mb-64 md:mb-40 flex flex-col md:flex-row items-center gap-32 md:gap-24 px-9">
+            <div class="left w-full md:w-1/3 flex flex-col gap-32 md:gap-0 md:justify-between md:h-full">
+                <h1 class="w-3/4 leading-[4rem] md:leading-6 md:w-40 text-4xl md:text-[0.9rem] font-medium font-['Satoshi']">Stay up-to-date on the latest healthcare innovations and thought leadership.</h1>
+                <div class="heading ">
+                    <h1 class="font-['MachinaLight'] font-medium text-8xl md:text-6xl tracking-tight leading-[7rem] md:leading-[4.5rem]">Explore <br> Our Insights</h1>
+                    <div class="flex justify-center md:justify-start">
+                        <div class="masker-parent cursor-pointer bg-[#F5F19C] px-[10rem] py-10 md:px-8 md:py-1 border border-[--dcyan] w-fit mt-20 md:mt-2">
+                            <div class="masker flex items-center justify-center">
+                                <div class="btn-text flex items-center gap-3 md:gap-1"> 
+                                    <div class="first flex items-center ">VIEW</div>
+                                    <div class="second flex items-center">ALL</div>
+                                    <div class="third flex items-center">ARTICLES</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right w-full md:h-full flex flex-col md:flex-row items-center gap-16">
+                <div class="capsule1 md:-rotate-[15deg] py-14 px-10 md:py-8 md:px-6 border-2 md:border-[1px] border-black rounded-full flex flex-col items-center gap-16 md:gap-10">
+                    <div class="w-[39rem] h-[39rem] md:w-52 md:h-52 rounded-full overflow-hidden">
+                        <img class="w-full h-full object-cover" src="https://assets-global.website-files.com/659dbdfd5a080be8d3483190/65e61826ab9558e05e681a7f_Untitled%20design.png" alt="">
+                    </div>
+                    <div class="text w-[40rem] md:w-52 text-5xl leading-[4.5rem] md:leading-7 md:text-lg text-center font-['MachinaMedium']">
+                        <h3>Equity in Tech: An International Women's Day Conversation with Caroline Nieto, Significo's CPO </h3>
+                    </div>
+                    <div class="masker-parent cursor-pointer px-6 py-6 md:px-4 md:py-0 bg-[#E9BBFF] rounded-full w-fit mb-10">
+                        <div class="masker flex items-center justify-center">
+                            <div class="btn-text flex items-center gap-2 md:gap-1"> 
+                                <div class="first flex items-center">Thought</div>
+                                <div class="second flex items-center">leadership</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="capsule2 md:-rotate-[15deg] translate-y-40 py-14 px-10 md:py-8 md:px-6 border-2 md:border-[1px] border-black rounded-full flex flex-col items-center gap-14 md:gap-6">
+                    <div class="masker-parent cursor-pointer px-6 py-6 md:px-4 md:py-0 bg-[#E9BBFF] rounded-full w-fit mt-10 md:mt-0">
+                        <div class="masker flex items-center justify-center">
+                            <div class="btn-text flex items-center gap-1"> 
+                                <div class="first flex items-center">Thought</div>
+                                <div class="second flex items-center">leadership</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text w-[40rem] md:w-52 text-5xl leading-[4.5rem] md:leading-7 md:text-lg text-center font-['MachinaMedium']">
+                        <h3>How to Use Digital Health Interventions to Align Employee & Organizational Goals</h3>
+                    </div>
+                    <div class="text text-3xl md:text-xs text-center leading-[3rem] md:leading-5 font-['Satoshi']">
+                        <p>How to use personalized digital health </p>
+                        <p>interventions to empower employees while </p>
+                        <p>achieving your organization's goals.</p>
+                    </div>
+                    <div class="w-[39rem] h-[39rem] md:w-52 md:h-52 rounded-full overflow-hidden">
+                        <img class="w-full h-full object-cover" src="https://assets-global.website-files.com/659dbdfd5a080be8d3483190/65affe89f470b736a1da1ba2_How%20to%20Use%20Digital%20Health%20Interventions.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="discover w-full min-h-96 md:h-80 bg-[#F5F19C] px-9 py-36 md:py-14 flex flex-col md:flex-row justify-between md:items-center gap-16 md:gap-0">
+            <div class="left w-full md:w-64 h-full">
+                <h1 class="text-8xl w-64 md:text-6xl font-[MachinaLight] font-medium leading-[7rem] md:leading-[5.5vw] mb-8 md:mb-6">Discover Significo.</h1>
+                <div class="flex justify-center md:justify-start">
+                    <div class="masker-parent cursor-pointer bg-[#F5F19C] px-[16rem] py-10 md:px-8 md:py-1 border border-[--dcyan] w-fit mt-20 md:mt-2">
+                        <div class="masker flex items-center justify-center">
+                            <div class="btn-text flex items-center gap-3 md:gap-1"> 
+                                <div class="first flex items-center ">LET'S</div>
+                                <div class="second flex items-center">GO</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right w-full md:w-2/5 h-full flex items-center gap-11 md:gap-9">
+                <h2 class="w-3/4 md:w-4/6 font-[Satoshi] text-4xl md:text-base leading-[3rem] md:leading-6 font-medium">Find out how Significo’s people-centered designs can make health technology more empowering.</h2>
+                <div class="relative h-40 w-40">
+                    <div class="w-32 h-32 md:w-24 md:h-24 rounded-full flex items-center justify-center border-2 md:border border-black">
+                        <svg class="w-12 h-12 md:w-8 md:h-8" viewBox="0 0 32 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16 0.703124C16 9.53968 8.83656 16.7031 0 16.7031" stroke="black" stroke-width="2"></path>
+                            <path d="M16 0.703124C16 9.53968 23.1634 16.7031 32 16.7031" stroke="black" stroke-width="2"></path>
+                            <path d="M16 0.703125L16 37.2746" stroke="currentColor" stroke-width="2"></path>
+                        </svg>
+                    <img class="w-40 md:w-28 rounded-img absolute right-3 md:right-11" src="https://assets-global.website-files.com/659dbdfd5a080be8d3483164/659dbdfd5a080be8d348317c_ScrollUp.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer overflow-hidden w-full h-[90vh] md:h-[55vh] px-9 pt-16 bg-black text-white">
+            <div class="footer-top w-full h-52 gap-5 md:gap-0 md:justify-between flex items-center">
+                <div class="left w-fit md:w-full h-full">
+                    <h1 class="font-[MachinaMedium] w-fit text-2xl md:text-lg mb-3 cursor-pointer hover:text-[#F5F19C]" >Home</h1>
+                    <h1 class="font-[MachinaMedium] w-fit text-2xl md:text-lg mb-3 cursor-pointer hover:text-[#F5F19C]" >Solution</h1>
+                    <h1 class="font-[MachinaMedium] w-fit text-2xl md:text-lg mb-3 cursor-pointer hover:text-[#F5F19C]" >About</h1>
+                    <h1 class="font-[MachinaMedium] w-fit text-2xl md:text-lg mb-3 cursor-pointer hover:text-[#F5F19C]" >Team</h1>
+                    <h1 class="font-[MachinaMedium] w-fit text-2xl md:text-lg mb-3 cursor-pointer hover:text-[#F5F19C]" >Contact</h1>
+                </div>
+                <div class="middle w-full h-full">
+                    <h2 class="font-[MachinaMedium] text-center text-3xl md:text-2xl ">Join our mailing list for <br> the latest updates.</h2>
+                    <div class="w-full h-52 md:h-20mt-5 flex items-center flex-col md:flex-row justify-between py-10 md:py-4">
+                        <input class="placeholder:text-black text-xl md:text-sm h-12 w-80 md:h-19 md:w-64 outline-none bg-white px-4 text-black font-[Satoshi]" type="text" placeholder="Enter your email address....">
+                        <div class="masker-parent cursor-pointer px-16 py-2 md:px-7 md:py-1 bg-[#F5F19C] text-black">
+                            <div class="masker flex items-center justify-center">
+                                <div class="btn-text flex items-center gap-1"> 
+                                    <div class="first flex items-center text-black">SUBSCRIBE</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right w-fit md:w-full h-full text-right">
+                    <h1 class="font-[MachinaMedium] w-fit text-2xl md:text-lg mb-3" >Insights</h1>
+                    <h1 class="font-[MachinaMedium] w-fit text-2xl md:text-lg mb-3" >Newsroom</h1>
+                    <h1 class="font-[MachinaMedium] w-fit text-2xl md:text-lg mb-3" >Resources</h1>
+                    <h1 class="font-[MachinaMedium] w-fit text-2xl md:text-lg mb-3" >Contact</h1>
+                    <h1 class="font-[MachinaMedium] w-fit text-2xl md:text-lg mb-3" >Careers</h1>
+                </div>
+            </div>
+            <div class="footer-center relative z-[3] w-full h-48 flex items-center justify-between px-5 translate-y-12">
+                <h1 class="text-[14.5rem] font-[MachinaMedium]">S</h1>
+                <h1 class="text-[14.5rem] font-[MachinaMedium]">i</h1>
+                <h1 class="text-[14.5rem] font-[MachinaMedium]">g</h1>
+                <h1 class="text-[14.5rem] font-[MachinaMedium]">n</h1>
+                <h1 class="text-[14.5rem] font-[MachinaMedium]">i</h1>
+                <h1 class="text-[14.5rem] font-[MachinaMedium]">f</h1>
+                <h1 class="text-[14.5rem] font-[MachinaMedium]">i</h1>
+                <h1 class="text-[14.5rem] font-[MachinaMedium]">c</h1>
+                <h1 class="text-[14.5rem] font-[MachinaMedium]">o</h1>
+            </div>
+            <div class="footer-bottom relative z-[99] bg-black w-full h-48 md:h-24 border-t-2 md:border-t border-white flex flex-col md:flex-row items-center justify-between pt-2 md:pt-0 -translate-y-24 md:-translate-y-48">
+                <div class="one flex items-center w-fit md:w-60 h-10 flex items-center gap-8">
+                    <h2 class="text-2xl md:text-xs font-[Satoshi] font-medium border-b-2 md:border-b hover:text-[#F5F19C] cursor-pointer">Privacy Policy</h2>
+                    <h2 class="text-2xl md:text-xs font-[Satoshi] font-medium border-b-2 md:border-b hover:text-[#F5F19C] cursor-pointer">Terms of use</h2>
+                </div>
+                <div class="two flex items-center justify-center w-full md:w-60 h-10">
+                    <h2 class="text-2xl md:text-xs font-[Satoshi] font-medium">© 2024 Signifco. All rights reserved.</h2>
+                </div>
+                <div class="three flex items-center text-5xl md:text-2xl w-full md:w-56 h-10 gap-10 md:gap-0 justify-center md:justify-between">
+                    <i class="ri-instagram-line cursor-pointer hover:text-[#F5F19C]"></i>
+                    <i class="ri-linkedin-box-fill cursor-pointer hover:text-[#F5F19C]"></i>
+                    <i class="ri-github-fill cursor-pointer hover:text-[#F5F19C]"></i>
+                    <i class="ri-youtube-fill cursor-pointer hover:text-[#F5F19C]"></i>
+                    <i class="ri-facebook-circle-fill cursor-pointer hover:text-[#F5F19C]"></i>
+                    <i class="ri-twitter-x-line cursor-pointer hover:text-[#F5F19C]"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@beta/bundled/locomotive-scroll.min.js"></script>
+<script src="script.js"></script>
+</html>
